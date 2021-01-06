@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Beredith Personal Use Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Beredith Personal Use Regular'), url('../Police/Beredith Personal use.woff') format('woff');
+    }
+@keyframes clignote {  
+        50% { opacity: 0; }
+}
+body{
+    font-family: "Myriad Pro",Helvetica ,sans-serif;
+    background: url('../IMG/Fond-promo.jpg')no-repeat;
+    background-size:cover; 
+}
+h1{
+    line-height: 350%;
+    color:black;
+    text-align: center;
+    font-size: 500%;
+    font-family:Beredith Personal Use Regular;
+}
+h1.ValidC{
+    text-align: center;
+    font-size: 300%;
+    border: 3px solid black;
+    border-radius: 40px;
+    width: 34%;
+    padding: 0%;
+    background: white;
+
+}
+
+#search{
+    float: right;
+    padding:8px ;
+    border :3px solid black;
+    border-radius:40px;
+    outline: none; 
+    width: 48px;
+    padding-left: 30px;
+    background: url('../IMG/search2.png') right no-repeat;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    -ms-transition: width 1s;
+
+}
+#search:hover{
+    width: 200px;
+
+}
+header.HeaderClass ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+}
+header.HeaderClass ul li.btn a{
+    color:black;
+    text-decoration: none;
+}
+header.HeaderClass ul li.btn:hover a{
+    color:red;
+    transition: 0.3s all;
+}
+header.HeaderClass ul li.btn{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    width: 11%;
+    font-size: 100%;
+    background-color: white ;
+    list-style-type: none;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h2.VenteVélo1Titre{
+    background: white;
+    border: 3px solid black;
+    border-radius: 40px;
+    width: 35%;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    text-align: center;
+}
+img.left{
+    float: left;
+    border:3px solid black;
+    margin: 0.5%;
+    border-radius: 40px;
+}
+.VenteVélo1{
+    border: 3px solid black ;
+    padding-bottom: 240px ;
+    margin-bottom: 20px;
+    width: 55%;
+    background: white;
+    border-radius: 40px;
+    text-align: justify;
+
+}
+.Atout{
+    list-style-type: none;
+
+}
+.Bouton{
+    text-align: center;
+
+}
+button{
+    text-align: center;
+}
+
+.livraison{
+    list-style-type: none;
+    background: white;
+    border: 3px solid black;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 40px;
+}
+p.Valid{
+    background: white;
+    border: 3px solid black;
+    margin-left: 70px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 40px;
+    text-align: center;
+}
+.commentaire{
+    border:3px solid black;
+    border-radius: 40px;
+    background: white;
+    padding: 5px;
+    text-align: center;
+    margin: 30%;
+
+}
+
+footer{
+    list-style: none;
+    flex-shrink: 0;
+    border: 3px solid black;
+    width: 100%;
+    background: white;
+    color: #333;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.contenu-footer{
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 0px;
+}
+h3.footer{
+    font-size: 200%;
+    font-family:Beredith Personal Use Regular;
+    margin: 0 30px;
+}
+@media screen and (max-width:1260px) {
+    h1{
+        line-height: 350%;
+        color:black;
+        text-align: center;
+        font-size: 500%;
+        font-family:Beredith Personal Use Regular;
+    }
+    body{
+        background: url('../IMG/Fond-promo.jpg')no-repeat;
+        background-size:cover;   
+    }   
+    #search:focus{
+        width: 125px;
+        background: url('./IMG/search.png') right no-repeat;
+    }
+    header.HeaderClass ul li.btn{
+        font-family:Arial, Helvetica, sans-serif;
+        border-radius: 40px;
+        width: 10%;
+        font-size: 65%;
+        background-color: white ;
+        list-style-type: none;
+        display: inline-block;
+        line-height: 40px;    
+        text-align: center;
+    }   
+    .VenteVélo1{
+        border: 3px solid black ;
+        padding-bottom: 480px ;
+        margin: 8px;
+    
+    }
+    h2.VenteVélo1Titre{
+        background: white;
+        border: 3px solid black;
+        border-radius: 40px;
+        width: 70%;
+        text-decoration: underline;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    img.left{
+        float: left;
+        border:3px solid black;
+        margin: 0.5%;
+        border-radius: 40px;
+    }
+    .VenteVélo1{
+        border: 3px solid black ;
+        padding-bottom: 170px ;
+        margin-bottom: 50px;
+        width: 100%;
+        background: white;
+        border-radius: 40px;
+        text-align: justify;
+    
+    }
+    .Atout{
+        list-style-type: none;
+    
+    }
+    .Bouton{
+        text-align: center;
+    
+    }
+    button{
+        text-align: center;
+    }
+    .VenteVélo1{
+        border: 3px solid black ;
+        padding-bottom: 220px ;
+        margin-bottom: 20px;
+        width: 100%;
+        background: white;
+        border-radius: 40px;
+        text-align: justify;
+    
+    }
+}

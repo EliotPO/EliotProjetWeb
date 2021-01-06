@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Beredith Personal Use Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Beredith Personal Use Regular'), url('../Police/Beredith Personal use.woff') format('woff');
+    }
+@keyframes clignote {  
+        50% { opacity: 0; }
+}
+body{
+    font-family: "Myriad Pro",Helvetica ,sans-serif;
+    background: url('../IMG/Fond-promo.jpg')no-repeat;
+    background-size:cover; 
+}
+h1{
+    line-height: 435%;
+    color:black;
+    text-align: center;
+    font-size: 600%;
+    font-family:Beredith Personal Use Regular;
+}
+  
+#search{
+    float: right;
+    padding:8px ;
+    border :3px solid black;
+    border-radius:40px;
+    outline: none; 
+    width: 48px;
+    padding-left: 30px;
+    background: url('../IMG/search2.png') right no-repeat;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    -ms-transition: width 1s;
+
+}
+#search:hover{
+    width: 200px;
+
+}
+header.HeaderClass ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+}
+header.HeaderClass ul li.btn a{
+    color:black;
+    text-decoration: none;
+}
+header.HeaderClass ul li.btn:hover a{
+    color:red;
+    transition: 0.3s all;
+}
+header.HeaderClass ul li.btn{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    width: 11%;
+    font-size: 100%;
+    background-color: white ;
+    list-style-type: none;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+}
+.alignLeft{
+    float:left;
+}
+.Vélo img {
+    width: 150px;
+    height: 150px;
+}
+.Vélo img:hover {
+    width: 160px;
+    height: 160px;
+    transition: 0.4s all;
+}
+
+h2.Promo{
+ text-decoration: underline;
+ border : 3px solid black;
+ border-radius: 40px;
+ background: white ;
+ width: 15%;
+ padding: 10px ;
+ text-align: center;
+ 
+}
+h2.Descriptif{
+    text-decoration: underline;
+    border : 3px solid black;
+    border-radius: 40px;
+    background: white ;
+    width: 22%;
+    padding: 10px ;
+    text-align: center;
+    
+}
+.sommesnous{
+    background: white;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 15px;
+    margin-bottom: 80px;
+    width: 70%;
+}
+.Vélo{
+    column-count:1;
+    
+}
+h4{
+    text-align: center;
+    color: red;
+    animation: clignote 2s linear infinite;
+}
+.Vélo1{
+    padding: 60px;
+    border: 3px solid black;
+    border-radius: 40px;
+    text-align: justify;
+    font-size: 145%;
+    margin: 40px;
+    background: white;
+}
+.Vélo2{
+    padding: 60px;
+    border: 3px solid black;
+    border-radius: 40px;
+    font-size: 145%;  
+    margin: 40px;
+    background: white;
+}
+.Vélo3{
+    
+    padding: 60px;
+    border: 3px solid black;
+    border-radius: 40px;
+    font-size: 145%;
+    margin: 40px;
+    background: white;
+    
+}
+.Vélo4{
+    padding: 60px;
+    border: 3px solid black;
+    border-radius: 40px;
+    font-size: 145%;
+    margin: 40px;
+    background: white;
+
+}
+.Vélo5{
+    padding: 60px;
+    border: 3px solid black;
+    border-radius: 40px;
+    font-size: 145%;
+    margin: 40px;
+    background: white;
+}
+.Vélo6{
+    padding: 60px;
+    border: 3px solid black;
+    background: white;
+    border-radius: 40px;
+    font-size: 145%;
+    margin: 40px;
+}
+footer{
+    list-style: none;
+    flex-shrink: 0;
+    border: 3px solid black;
+    width: 100%;
+    background: white;
+    color: #333;
+}
+.contenu-footer{
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 0px;
+}
+h3{
+    font-size: 200%;
+    font-family:Beredith Personal Use Regular;
+    margin: 0 30px;
+}
+@media screen and (max-width:1260px) {
+    h1{
+        line-height: 350%;
+        color:black;
+        text-align: center;
+        font-size: 500%;
+        font-family:Beredith Personal Use Regular;
+    }
+    body{
+        background: url('../IMG/Fond-promo.jpg')no-repeat;
+        background-size:cover;   
+    }   
+    #search:focus{
+        width: 125px;
+        background: url('./IMG/search.png') right no-repeat;
+    }
+    header.HeaderClass ul li.btn{
+        font-family:Arial, Helvetica, sans-serif;
+        border-radius: 40px;
+        width: 10%;
+        font-size: 65%;
+        background-color: white ;
+        list-style-type: none;
+        display: inline-block;
+        line-height: 40px;    
+        text-align: center;
+    } 
+    h2{
+        text-decoration: underline;
+        border : 3px solid black;
+        border-radius: 40px;
+        background: white ;
+        width: 15%;
+        padding: 10px ;
+       }
+    .Vélo1{
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 40px;
+        text-align: justify;
+        font-size: 145%;
+        margin: 40px;
+    }
+    .Vélo2{
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 40px;
+        font-size: 145%;  
+        margin: 40px;
+    }
+    .Vélo3{
+        
+        padding: 40px;
+        border: 3px solid black;
+        border-radius: 40px;
+        font-size: 145%;
+        margin: 40px;
+        
+    }
+    .Vélo4{
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 40px;
+        font-size: 145%;
+        margin: 40px;
+    
+    }
+    .Vélo5{
+        padding: 35px;
+        border: 3px solid black;
+        border-radius: 40px;
+        font-size: 145%;
+        margin: 40px;
+    }
+    .Vélo6{
+        padding: 35px;
+        border: 3px solid black;
+        border-radius: 40px;
+        font-size: 145%;
+        margin: 40px;
+    }  
+    section.sommesnous{
+        background: white;
+        border: 3px solid black;
+        border-radius: 40px;
+        padding: 15px;
+        margin-bottom: 80px;
+        width: 95%;    
+    }
+}
